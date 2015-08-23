@@ -15,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
     # Inverse of the matrix
     inv <- NULL
     
-    # Setter for the matrix
+    # Setter for the matrix (parent enviroment)
     set <- function(y) {
         # Assigns the matrix
         x <<- y
